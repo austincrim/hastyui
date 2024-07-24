@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  prettier:
+    specifier: ^3.1.1
+    version: 3.1.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -21,7 +24,7 @@ devDependencies:
     version: 4.2.1(vite@5.0.8)
   bun-types:
     specifier: latest
-    version: 1.0.17
+    version: 1.0.18
   esbuild:
     specifier: ^0.19.9
     version: 0.19.9
@@ -650,8 +653,8 @@ packages:
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
 
-  /bun-types@1.0.17:
-    resolution: {integrity: sha512-5dj7Pi0qmZB1gaY2LmtKKrKixgnxi/qDcawsA4ttWQhT0jWyecSEB8la7c6DIgrMkJciixAtyLLe3aj0SJaRAw==}
+  /bun-types@1.0.18:
+    resolution: {integrity: sha512-1XZ7AxOF8oO8FZtw1xj006JAKxEjulK3dUhsktZVN95vXBlsf4NIjQxfistVdpt24v3H2I9BwHp+UU+gXSSpAw==}
     dev: true
 
   /caniuse-lite@1.0.30001570:
@@ -814,6 +817,12 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}

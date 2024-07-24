@@ -1,4 +1,8 @@
 VStack {
   Text("Hello from HastyUI!")
-  Text("Again!")
+  HStack {
+    Text("Hello ")
+    Text("from")
+    Text("an HStack")
+  }
 }
