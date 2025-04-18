@@ -243,8 +243,6 @@ function parse(tokens) {
     ast.body.push(walk())
   }
 
-  console.log(JSON.stringify(ast, null, 2))
-
   return ast
 }
 

@@ -1,8 +1,9 @@
 VStack {
-  Text("Hello from HastyUI!")
+  Text("Hello from SwiftUI!")
   HStack {
-    Text("Hello ")
-    Text("from")
-    Text("an HStack")
+    Button("Buttons")
+    Button("in")
+    Button("a")
+    Button("row")
   }
 }
